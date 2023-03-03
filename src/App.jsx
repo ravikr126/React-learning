@@ -20,7 +20,6 @@ return (
     value={name}  />
     <button onClick={onSubmit} >Click me</button>
     </div>
-    
     </>
 );
 };
