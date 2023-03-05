@@ -3,12 +3,13 @@ import { useState } from "react";
 
 
 const App =() =>{
+    //1st state
     const[name,setName]= useState("");
-
+    //2nd state
     const[lastName, setLastName] = useState('');
-
+    //3rd state
     const[fullName,setFullName]=useState("");
-
+    //4th state
     const[lastNamenew, setLastNameNew]= useState("");
 
     const inputEvent=(event) =>{
@@ -17,7 +18,6 @@ const App =() =>{
     };
 
     const inputEventtwo=(event) =>{
-        //console.log(event.target.value);
         setLastName(event.target.value);
     };
 
